@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Støjmåling Dashboard</title>
+    <style>
+        body {
+            background: #121212;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        .card {
+            margin: 20px auto;
+            background: #1e1e1e;
+            padding: 20px;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #000;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🔊 Støjmåling Dashboard</h1>
+
+<div class="card">
+    <h2>Målinger</h2>
+    <p><b>dB 1 :</b> <span id="db1">--</span></p>
+    <p><b>dB 2 :</b> <span id="db2">--</span></p>
+</div>
+
+<script>
+    async function updateSensorData() {
+        try {
+            const response = await fetch("/api/sensor");
+            const data = await response.json();
+
+            // Update the HTML with JSON values
+            document.getElementById("db1").textContent = data.db_1 ?? "--";
+            document.getElementById("db2").textContent = data.db_2 ?? "--";
+
+        } catch (error) {
+            console.error("Fejl ved hentning af sensor data:", error);
+        }
+    }
+
+    // Update every 1 second
+    setInterval(updateSensorData, 1000);
+
+    // Run immediately on page load
+    updateSensorData();
+</script>
+
+</body>
+</html>
