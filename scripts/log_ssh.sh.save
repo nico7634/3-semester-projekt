@@ -1,0 +1,30 @@
+#!/bin/bash
+
+LOGFILE="/home/server/scripts/ssh_logins.log"
+
+# Overvåg AUTH-log for nye SSH-login events
+tail -Fn0 /var/log/auth.log | \
+while read line; do
+    if echo "$line" | grep -q 'Accepted password\|Accepted publickey'; then
+        
+        TIMESTAMP=$(echo "$line" | awk '{print $1, $2, $3}')
+        USER=$(echo "$line" | awk '{for(i=1;i<=NF;i++) if($i=="for") print $(i+1)}')
+        FROM=$(echo "$line" | awk '{for(i=1;i<=NF;i++) if($i=="from") print $(i+1)}')
+
+        INFO="$TIMESTAMP  -  USER: $USER  FROM: $FROM"
+
+        # Skriv til logfil
+        echo "$INFO" >> "$LOGFILE"
+
+        # Send mail når der sker et login
+        MAIL_TO="alerts@ligegyldigmail.dk"
+        MAIL_FROM="stumlærernemand@gmail.com"
+        SUBJECT="SSH login registreret på serveren"
+        BODY="Der er registreret et SSH-login:\n$INFO"
+
+        printf "Subject: %s\nFrom: %s\nTo: %s\n\n%s\n" \
+            "$SUBJECT" "$MAIL_FROM" "$MAIL_TO" "$BODY" \
+            | msmtp -a brevo "$MAIL_TO"
+    fi
+
+done

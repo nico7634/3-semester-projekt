@@ -1,0 +1,706 @@
+---- Netværks-healthcheck (2025-12-08 11:04:50) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netværks-healthcheck (2025-12-08 11:10:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netværks-healthcheck (2025-12-08 11:11:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netværks-healthcheck (2025-12-08 11:12:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netværks-healthcheck (2025-12-08 11:13:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netværks-healthcheck (2025-12-08 12:00:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netværks-healthcheck (2025-12-08 13:00:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netværks-healthcheck (2025-12-08 14:00:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:01:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:02:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:03:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:04:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:05:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:06:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:07:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:08:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:09:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:10:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:11:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:12:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:13:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:14:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:15:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:16:02) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:17:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:18:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:19:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:20:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:21:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:22:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:23:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:24:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:25:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:26:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:27:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:28:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:29:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+/home/server/scripts/net_healtcheck.sh: line 58: unexpected EOF while looking for matching `"'
+---- Netværks-healthcheck (2025-12-08 14:30:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netværks-healthcheck (2025-12-08 14:31:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netværks-healthcheck (2025-12-08 14:32:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netværks-healthcheck (2025-12-08 14:33:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netvaerks-healthcheck (2025-12-08 14:34:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netvaerks-healthcheck (2025-12-08 14:35:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netvaerks-healthcheck (2025-12-08 14:36:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netvaerks-healthcheck (2025-12-08 14:37:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netvaerks-healthcheck (2025-12-08 14:38:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netvaerks-healthcheck (2025-12-08 14:39:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netvaerks-healthcheck (2025-12-08 14:40:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netvaerks-healthcheck (2025-12-08 14:41:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netvaerks-healthcheck (2025-12-08 14:42:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netvaerks-healthcheck (2025-12-09 10:00:01) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
+---- Netvaerks-healthcheck (2025-12-09 11:00:02) ----
+Tester Server (localhost test) (192.168.10.3)...
+[32m[OK] Server (localhost test) svarer på ping![0m
+-------------------------------------------
+Tester Router 1941 VLAN10 (192.168.10.2)...
+[32m[OK] Router 1941 VLAN10 svarer på ping![0m
+-------------------------------------------
+Tester MLS (192.168.10.1)...
+[32m[OK] MLS svarer på ping![0m
+-------------------------------------------
+Tester Backup Laptop VLAN20 (192.168.20.3)...
+[31m[FEJL] Backup Laptop VLAN20 svarer ikke! Tjek netværket.[0m
+-------------------------------------------
