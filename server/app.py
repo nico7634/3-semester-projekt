@@ -6,13 +6,7 @@ from postgres.Postgres_Class import PostgresClass, AutoClosePostgres
 
 app = Flask(__name__)
 
-#MIDLOERTIDIG "FAKE DATABASE"
-state = {
-    "servo_active": False,
-    "stepper_active": False,
-    "latest_db": 42.7,
-    "latest_hz": 440
-}
+state = {}
 
 # Postgress Innit med automatisk nedlukning
 postgres_params = {
