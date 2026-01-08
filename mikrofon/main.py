@@ -24,8 +24,13 @@ async def send_via_espnow():
         json_payload = await dbspl_json()
         if json_payload:
             try:
-                e.send(peer_step, json_payload.encode())
                 e.send(peer_servo, json_payload.encode())
+                print("Sent ESP-NOW:", json_payload)
+            except Exception as ex:
+                print("ESP-NOW send failed:", ex)
+
+            try:
+                e.send(peer_step, json_payload.encode())
                 print("Sent ESP-NOW:", json_payload)
             except Exception as ex:
                 print("ESP-NOW send failed:", ex)
