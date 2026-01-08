@@ -6,9 +6,6 @@ import network
 import time
 import json
 
-#ESP-NOW
-w0 = network.WLAN(network.STA_IF)
-w0.active(True)
 
 e = espnow.ESPNow()
 e.active(True)
@@ -18,7 +15,7 @@ e.add_peer(PEER_MAC)
 
 motor=Servo(pin=22)
 
-
+last_print = 0
 
 async def espnow_receiver():
     global last_print
@@ -27,22 +24,23 @@ async def espnow_receiver():
     while True:
         msg = e.recv(0)
 
+
         # Ingen data
         if msg is None:
-            await asyncio.sleep(0.05)
+            await asyncio.sleep_ms(5)
             continue
 
         host, data = msg
 
         # Tom pakke
-        if data is None:
-            await asyncio.sleep(0.01)
+        if data is None:           
             continue
 
         # JSON decode
         try:
             payload = json.loads(data.decode())
             value = payload.get("current_dBSPL", None)
+
 
             if value is None:
                 continue
@@ -51,23 +49,25 @@ async def espnow_receiver():
             print("JSON-fejl:", err)
             continue
 
-        # Print max én gang pr. sekund
-        if time.time() - last_print > 1:
-            print("Modtaget dB:", value)
-            last_print = time.time()
+
 
         #LOGIK
-        if value > 35:
-            grader = int((value/85)*180)
+        if value > 40:
+            grader = int(((value-40)/50)*180)
+            print("Modtaget dB:", value, "sætter til:", grader, "grader")
             motor.move(grader)
-            time.sleep(0.3)
+            await asyncio.sleep(0.3)
             
-
+        if value < 40:
+            print("Modtaget dB:", value, "sætter til: 0 grader")
+            motor.move(0)
+            await asyncio.sleep(0.3)
+            
 
 #MAIN
 async def main():
-    await espnow_receiver()
-
-time.sleep(2)
+    asyncio.create_task(espnow_receiver())
+    while True:
+        await asyncio.sleep_ms(5)
 
 asyncio.run(main())
