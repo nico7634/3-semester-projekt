@@ -8,22 +8,15 @@ from Konfiguration.INMP441_dB_JSON import dbspl_json
 
 
 
-# -------------------------
-# ESP-NOW init
-# -------------------------
 
-w0 = network.WLAN(network.STA_IF)
-w0.active(True)
 
 e = espnow.ESPNow()
 e.active(True)
 
-peer = b'\xc8.\x18\x16\xac\xc0'
-e.add_peer(peer)
-
-# -------------------------
-# Send via ESP-NOW
-# -------------------------
+peer_step = b'\xc8.\x18\x16\xac\xc0'
+peer_servo = b'\xd4\x8a\xfch\xa0\xac'
+e.add_peer(peer_step)
+e.add_peer(peer_servo)
 
 
 async def send_via_espnow():
@@ -31,7 +24,8 @@ async def send_via_espnow():
         json_payload = await dbspl_json()
         if json_payload:
             try:
-                e.send(peer, json_payload.encode())
+                e.send(peer_step, json_payload.encode())
+                e.send(peer_servo, json_payload.encode())
                 print("Sent ESP-NOW:", json_payload)
             except Exception as ex:
                 print("ESP-NOW send failed:", ex)
@@ -39,9 +33,6 @@ async def send_via_espnow():
         await asyncio.sleep(0.5)
 
 
-# -------------------------
-# Send via WebSocket
-# -------------------------
 async def send_via_websocket():
     ws_server = None
 
@@ -68,9 +59,6 @@ async def send_via_websocket():
         await asyncio.sleep(0.5)
 
 
-# -------------------------
-# Main
-# -------------------------
 async def main():
     asyncio.create_task(send_via_websocket()) #prøv at kald espnow først
     asyncio.create_task(send_via_espnow())
